@@ -21,3 +21,5 @@ export default function Meaning(props) {
     </div>
   );
 }
+//partOfSpeech refers to the type of word we have, whether it's a noun, verb, adj., etc//
+//N.B.: a word does have multiple definitions, in the API. We'll display all definitions with their meaning//

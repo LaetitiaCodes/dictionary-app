@@ -1,9 +1,35 @@
+import React from "react";
+import Dictionary from "./Dictionary.js";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header"></header>
+      <div className="container">
+        <header className="App-header"></header>
+        <main>
+          <Dictionary />
+        </main>
+        <footer>
+          <small>
+            <a
+              href="https://github.com/LaetitiaCodes/dictionary-app.git"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Open-sourced code{" "}
+            </a>
+            by Laetitia Ganglmair hosted on{" "}
+            <a
+              href="https://react-dictionnary-app-by-laetitia.netlify.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Netlify
+            </a>
+          </small>
+        </footer>
+      </div>
     </div>
   );
 }

@@ -10,7 +10,7 @@ function App() {
         <main>
           <Dictionary />
         </main>
-        <footer>
+        <footer className="text center">
           <small>
             <a
               href="https://github.com/LaetitiaCodes/dictionary-app.git"

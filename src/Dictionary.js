@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 import Photos from "./Photos";
-import Results from "./Results.js";
+import Results from "./Results";
 import "./Dictionary.css";
 
 export default function Dictionary(props) {
@@ -19,7 +19,7 @@ export default function Dictionary(props) {
 
   function handleSubmit(event) {
     event.preventDefault();
-    search();
+    search(keyword);
   }
 
   function search(keyword) {
@@ -40,7 +40,7 @@ export default function Dictionary(props) {
   }
   function load() {
     setLoaded(true);
-    search();
+    search(keyword);
   }
 
   if (loaded) {

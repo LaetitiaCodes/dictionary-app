@@ -1,0 +1,6 @@
+.typeOfWord {
+  text-transform: capitalize;
+  font-size: 14pt;
+  text-decoration: underline;
+  background-color: rgb(164, 196, 207);
+}

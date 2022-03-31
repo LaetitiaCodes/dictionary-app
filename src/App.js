@@ -8,6 +8,7 @@ function App() {
       <div className="container">
         <header className="App-header"></header>
         <main>
+          <h1>Leti's Dictionary App 📖</h1>
           <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="text center">

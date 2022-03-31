@@ -57,7 +57,8 @@ export default function Dictionary(props) {
             />
           </form>{" "}
         </section>
-        <Results results={results} /> <Photos photos={photos} />{" "}
+        <Results results={results} />
+        <Photos photos={photos} />{" "}
       </div>
     );
   } else {
